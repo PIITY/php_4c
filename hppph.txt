@@ -1,0 +1,12 @@
+<VirtualHost *> 
+	DocumentRoot "C:\Users\ct21sochackip\Documents\php 4c"
+        Alias /repo "C:\Users\ct21sochackip\Documents\php 4c"
+    
+	<Directory "C:\Users\ct21sochackip\Documents\php 4c">
+        Options Indexes FollowSymLinks MultiViews
+        Require all granted
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
